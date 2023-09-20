@@ -1,0 +1,27 @@
+body{
+font-family: 'Times New Roman', Times, serif;
+}
+.speech{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 15px;
+    color: black;
+}
+.direction{
+    background-color: bisque;
+    color:black;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.direction:hover{
+color:green;
+background-color: aqua;
+}
+.NURSE{
+    font-style: oblique;
+    color: orange;
+}
+.NORA{
+    font-style: italic;
+    color: aqua;
+}
