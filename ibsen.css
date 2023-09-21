@@ -45,5 +45,18 @@ td {
 
 tr:nth-child(even) {
     background-color: #e9dbdb;
-
+}
+.NORA:hover{
+    color: blue;
+    background-color: aliceblue;
+    text-shadow: 2px 2px red;
+    filter: blur(.6px);
+    border: 20px;
+}
+.NURSE:hover{
+    color: red;
+    background-color: rgb(232, 222, 222);
+    text-shadow: 2px 2px 4px #180202;
+    filter: blur(.6px);
+border: 20px;
 }
