@@ -21,14 +21,24 @@ body {
     background-color: aqua;
 }
 
-.NURSE {
+
+.NURSE:hover {
     font-style: oblique;
-    color: orange;
+    color: blue;
+    background-color: aliceblue;
+    text-shadow: 2px 2px red;
+    filter: blur(.6px);
+    border: 2px solid blueviolet;
+
 }
 
-.NORA {
+.NORA:hover {
     font-style: italic;
-    color: aqua;
+    color: red;
+    background-color: rgb(232, 222, 222);
+    text-shadow: 2px 2px 4px #180202;
+    filter: blur(.6px);
+    border: 2px solid rgb(207, 204, 209);
 }
 
 .Table,
@@ -41,22 +51,43 @@ td {
     border-collapse: collapse;
     padding: 40px;
     margin-top: 10px;
+    font-style: inherit;
 }
 
 tr:nth-child(even) {
     background-color: #e9dbdb;
 }
-.NORA:hover{
-    color: blue;
-    background-color: aliceblue;
-    text-shadow: 2px 2px red;
-    filter: blur(.6px);
-    border: 20px;
+
+
+
+ul.navbar-horizontal {
+    /* remove these */
+    list-style-type: none;
+    margin: 5;
+    padding: 50;
 }
-.NURSE:hover{
-    color: red;
-    background-color: rgb(232, 222, 222);
-    text-shadow: 2px 2px 4px #180202;
-    filter: blur(.6px);
-border: 20px;
+
+ul.navbar-horizontal li {
+    float: left;
+    /* line up horizontally */
+    color: #e1c9c9;
+    background-color: green
+}
+
+ul.navbar-horizontal a {
+    display: block;
+    padding: 20px;
+}
+
+/* on hover change the link color*/
+ul.navbar-horizontal a:hover {
+    background-color: #555;
+    color: white;
+}
+
+.fa-female {
+    font-size: 24px;
+    background-color: blue;
+    color: #e8dede;
+    font-size: large;
 }
